@@ -12,7 +12,7 @@ export default function Home() {
     const fetchData = async () => {
       if (search) {
       setIsLoading(true);
-      const res = await fetch(`/api/openai1`, {
+      const res = await fetch(`/api/openai4`, {
         body: JSON.stringify({
           name: search
         }),
